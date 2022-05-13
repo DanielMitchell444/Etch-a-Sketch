@@ -1,0 +1,106 @@
+
+body{
+background-color: #ededed;
+}
+
+h1{
+ text-align: center;
+ font-size: 48px;
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.options{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.size{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+-webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+
+}
+
+.class2{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.classicBtn, .modernBtn, .rainbowBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.size1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.sliderText{
+  font-size: 28px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16,2fr);
+    border: 1px solid black;
+    margin-top: 30px;
+
+  }
+  
+  .square {
+    display: inline-block;
+    background-color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+  }
+
+  .Hover{
+   background-color: black;
+  }
+
+  .size{
+    width: 1100px;
+  }
